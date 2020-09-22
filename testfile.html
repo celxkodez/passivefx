@@ -1,0 +1,448 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PassiveFX | User panel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="csrf-token" content="vSofouimYYyOKKbXqfqBbcUd8C3rg4FKSnX5JH5L">
+
+<!--PayPal-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--/PayPal-->
+
+<!-- Bootstrap Core CSS -->
+<link href="https://coinfxcloud.com/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom CSS -->
+<link href="https://coinfxcloud.com/css/dashboard_style_blue.css" rel='stylesheet' type='text/css' />
+<!-- font CSS -->
+<!-- font-awesome icons -->
+<link href="https://coinfxcloud.com/css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+ 
+<!--webfonts-->
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!--//webfonts--> 
+<!--animate-->
+<link href="https://coinfxcloud.com/css/animate.css" rel="stylesheet" type="text/css" media="all">
+<link href="https://coinfxcloud.com/css/mystyle.css" rel="stylesheet" type="text/css" media="all">
+<script src="https://coinfxcloud.com/js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+
+<!-- Metis Menu -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script src="https://coinfxcloud.com/js/metisMenu.min.js"></script>
+<script src="https://coinfxcloud.com/js/custom.js"></script>
+<link href="https://coinfxcloud.com/css/custom.css" rel="stylesheet">
+<!--//Metis Menu -->
+
+</head> 
+<body class="cbp-spmenu-push">
+    
+    <!--PayPal-->
+    <script>
+    
+    // Add your client ID and secret
+    var PAYPAL_CLIENT = '';
+    var PAYPAL_SECRET = '';
+    
+    // Point your server to the PayPal API
+    var PAYPAL_ORDER_API = 'https://api.paypal.com/v2/checkout/orders/';
+
+    </script>
+    
+    <script
+    src="https://www.paypal.com/sdk/js?client-id=">
+  </script>
+  
+  <!--/PayPal-->
+	
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+{}
+
+</script>
+<!--End of Tawk.to Script-->
+
+	<div class="main-content">
+		<!--left-fixed -navigation-->
+		<div class=" sidebar" role="navigation">
+            <div class="navbar-collapse">
+				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+					<ul class="nav" id="side-menu">
+						<li>
+							<a href="https://coinfxcloud.com/dashboard" class="active"><i class="fa fa-dashboard nav_icon"></i>Dashboard</a>
+						</li>
+						<li class="">
+							<a href="#"><i class="fa fa-user nav_icon"></i>Account <span class="fa arrow"></span></a>
+							<ul class="nav nav-second-level collapse">
+								<li>
+									<a href="https://coinfxcloud.com/dashboard/changepassword">Change Password</a>
+									<a href="https://coinfxcloud.com/dashboard/accountdetails">Update Account</a>
+																		<a href="https://coinfxcloud.com/dashboard/notification">Notification</a>
+									<!--<a href="https://coinfxcloud.com/dashboard/profile">Profile</a>-->
+																	</li>
+							</ul>
+							<!-- /nav-second-level -->
+						</li>
+
+												
+						<li>
+							<a href="https://coinfxcloud.com/dashboard/support"><i class="fa fa-ticket nav_icon"></i>Support</a>
+							
+						</li>
+						
+						<li>
+							<a href="https://coinfxcloud.com/dashboard/tradinghistory"><i class="fa fa-briefcase nav_icon"></i>Transaction (ROI) log</a>
+						</li>
+						<li class="">
+							<a href="#"><i class="fa fa-credit-card nav_icon"></i>Deposit/Withdrawal<span class="fa arrow"></span></a>
+							<ul class="nav nav-second-level collapse">
+								<li>
+									<a href="https://coinfxcloud.com/dashboard/deposits"><i class="fa fa-money nav_icon"></i>Deposits</a>
+									<a href="https://coinfxcloud.com/dashboard/withdrawals"><i class="fa fa-dollar nav_icon"></i>Withdrawals</a>
+								</li>
+							</ul>
+							<!-- /nav-second-level -->
+						</li>
+						<li class="">
+							<a href="#"><i class="fa fa-gears (alias) nav_icon"></i>Packages <span class="fa arrow"></span></a>
+							<ul class="nav nav-second-level collapse">
+								<li>
+									<a href="https://coinfxcloud.com/dashboard/mplans"><i class="fa fa-list nav_icon"></i>Investment plans</a>
+									<a href="https://coinfxcloud.com/dashboard/myplans"><i class="fa fa-eye nav_icon"></i>My packages</a>
+								</li>
+							</ul>
+							<!-- /nav-second-level -->
+						</li>
+
+
+												
+												
+						<li>
+							<a href="https://coinfxcloud.com/dashboard/referuser"><i class="fa fa-users nav_icon"></i>Refer users</a>
+						</li>
+												<li>
+							<a href="https://coinfxcloud.com/dashboard/subtrade"><i class="fa fa-refresh nav_icon"></i> Subscription Trade</a>
+						</li>
+											</ul>
+					<!-- //sidebar-collapse -->
+				</nav>
+			</div>
+		</div>
+		<!--left-fixed -navigation-->
+		<!-- header-starts -->
+		<div class="sticky-header header-section ">
+			<div class="header-left">
+				<!--toggle button start-->
+				<button id="showLeftPush"><i class="fa fa-bars"></i></button>
+				<!--toggle button end-->
+				<!--logo -->
+				<div class="logo" style="padding:6px; width:200px;">
+					<a href="https://coinfxcloud.com" style="padding-left:15px !important;">
+						<h4>CoinFxCloud</h4>
+						
+					</a>
+				</div>
+				<!--//logo-->
+				
+				<div class="clearfix"> </div>
+			</div>
+			<div class="header-right">
+				<div class="profile_details" style="padding:8px; margin-top:15px;">	
+										<a href="https://coinfxcloud.com/dashboard/notification"><i style="color:white;" class="fa fa-bell text-white"></i></a> &nbsp;| 
+										<a href="#"><i class="fa fa-user "></i>  Chikwadoro</a>
+										| <a href="https://coinfxcloud.com/dashboard/changepassword"><i class="fa fa-key"></i> Change Password</a>
+					| <a href="https://coinfxcloud.com/dashboard/accountdetails"><i class="fa fa-edit"></i> Update Account</a>
+					| <a href="https://coinfxcloud.com/logout"
+                        onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">
+                        Logout
+                    	</a>
+                    <form id="logout-form" action="https://coinfxcloud.com/logout" method="POST" style="display: none;">
+                        <input type="hidden" name="_token" value="vSofouimYYyOKKbXqfqBbcUd8C3rg4FKSnX5JH5L">
+                    </form>
+				</div>
+				<div class="clearfix"> </div>				
+			</div>
+			<div class="clearfix"> </div>	
+		</div>
+		<!-- //header-ends -->
+		
+		<!-- Verify Modal -->
+			<div id="verifyModal" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title" style="text-align:center;">KYC verification - Upload documents below to get verified.</h4>
+			      </div>
+			      <div class="modal-body">
+                        <form style="padding:3px;" role="form" method="post" action="https://coinfxcloud.com/dashboard/savevdocs"  enctype="multipart/form-data">
+                            <label>Valid identity card. (e.g. Drivers licence, international passport or any government approved document).</label>
+                            <input type="file" name="id" required><br>
+					   		<label>Passport photogragh</label>
+                            <input type="file" name="passport" required><br>
+                               
+					   		<input type="hidden" name="_token" value="vSofouimYYyOKKbXqfqBbcUd8C3rg4FKSnX5JH5L">
+					   		<input type="submit" class="btn btn-default" value="Submit documents">
+					   </form>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<!-- /Verify Modal -->		<!-- main content start-->
+		<div id="page-wrapper" style="padding-left:0px; padding-right:5px;">
+			<div class="main-page mp">
+				<div class="sign-u" style="background-color:#fff; padding:0px 15px 5px 15px;">
+						<div class="sign-up1">
+							<h4><i class="fa fa-bell"></i> It can only get better with our Trading Platform or with any other platform</h4>
+						</div>
+					<div class="clearfix"> </div>
+				</div>
+
+				
+				
+                
+
+				<div class="row-one" style="margin-top:20px; text-align:center;">
+					<div class="col-md-3 col-sm-6 rp t-b">
+					    <h4>
+					    <span class="fa-stack">
+                          <i class="fa fa-circle fa-stack-2x icon1-background"></i>
+                          <i class="fa fa-briefcase fa-stack-1x"></i>
+                        </span>
+					    DEPOSITED
+					    </h4>
+						<h3 style=" margin-top:20px;" title="Your account balance">
+						    						    							$0.00
+																				</h3>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 rp t-b">
+					    <h4>
+					    <span class="fa-stack">
+                          <i class="fa fa-circle fa-stack-2x icon2-background"></i>
+                          <i class="fa fa-lock fa-stack-1x"></i>
+                        </span>
+					    PROFIT
+					    </h4>
+						<h3 style="margin-top:20px; text-align:center;" title="Your account balance">
+							$0.00
+						</h3>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 rp t-b">
+					    <h4>
+					    <span class="fa-stack">
+                          <i class="fa fa-circle fa-stack-2x icon3-background"></i>
+                          <i class="fa fa-gift fa-stack-1x"></i>
+                        </span>
+					    BONUS
+					    </h4>
+						<h3 style="margin-top:20px; text-align:center;" title="Your account balance">
+							$ 0.00
+						</h3>
+					</div>
+					<div class="col-md-3 col-sm-6 rp t-b">
+					    <h4>
+					    <span class="fa-stack">
+                          <i class="fa fa-circle fa-stack-2x icon3-background"></i>
+                          <i class="fa fa-bullhorn fa-stack-1x"></i>
+                        </span>
+					    REF. BONUS
+					    </h4>
+						<h3 style="margin-top:20px; text-align:center;" title="Your account balance">
+							$0.00
+						</h3>
+					</div>
+
+					<div class="col-md-4 col-sm-6 rp t-b" style="margin-top: 8px;">
+					    <h4>
+					    <span class="fa-stack">
+                          <i class="fa fa-circle fa-stack-2x icon1-background"></i>
+                          <i class="fa fa-money fa-stack-1x"></i>
+                        </span>
+					    BALANCE
+					    </h4>
+						<h3 style="color:green; margin-top:20px; text-align:center;" title="Your account balance">
+							$0.00
+						</h3>
+					</div>
+
+					<div class="col-md-4 col-sm-6 rp t-b" style="margin-top: 8px;">
+					    <h4>
+					    <span class="fa-stack">
+                          <i class="fa fa-circle fa-stack-2x icon1-background"></i>
+                          <i class="fa fa-unlock fa-stack-1x"></i>
+                        </span>
+					    TOTAL PACKAGES
+					    </h4>
+						<h3 style=" margin-top:20px;" title="Your account balance">
+													0
+												</h3>
+					</div>
+					<div class="col-md-4 col-sm-6 rp t-b" style="margin-top: 8px;">
+					    <h4>
+					    <span class="fa-stack">
+                          <i class="fa fa-circle fa-stack-2x icon1-background"></i>
+                          <i class="fa fa-unlock-alt fa-stack-1x" ></i>
+						</span>
+						ACTIVE PACKAGES
+					    </h4>
+						<h3 style=" margin-top:20px;" title="Your account balance">
+															0
+													</h3>
+					</div>
+					<!--
+										<div class="col-md-3 rp" style="text-align:center; color:#fa3425;">
+					<h4>Activate account!<br>
+					<small>
+					<a style="background-color:#fa3425; color:#fff; padding:4px;" href="https://coinfxcloud.com/dashboard/mplans">Join a plan</a> 
+					</small>
+					</h4>
+					</div>
+						
+					-->
+				</div>
+				<div class="row">
+					
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			
+			<div id="chart-page">
+                <div class="row" style="margin:15px 0px 0px 65px;">
+
+
+<div class="col-lg-12 col-md-12 col-sm-12">
+                        
+                        <div class="tradingview-widget-container" style="margin:30px 0px 10px 0px;">
+  <div id="tradingview_f933e"></div>
+  <div class="tradingview-widget-copyright"><a href="#" rel="noopener" target="_blank"><span class="blue-text"></span> <span class="blue-text">Personal trading chart</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": "100%",
+  "height": "550",
+  "symbol": "COINBASE:BTCUSD",
+  "interval": "1",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "9",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "calendar": false,
+  "studies": [
+    "BB@tv-basicstudies"
+  ],
+  "container_id": "tradingview_f933e"
+}
+  );
+  </script>
+</div>
+                        
+                    </div>
+    
+    
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="white-box" style="height: 450px;">
+                            <h4 style="margin-bottom:5px;"> Forex Market Fundamental Data</h4>
+<!-- TradingView Widget BEGIN -->
+
+<span id="tradingview-copyright"><a ref="nofollow noopener" target="_blank" href="http://www.tradingview.com" style="color: rgb(173, 174, 176); font-family: &quot;Trebuchet MS&quot;, Tahoma, Arial, sans-serif; font-size: 13px;"></a></span>
+<script src="https://s3.tradingview.com/external-embedding/embed-widget-forex-cross-rates.js">{
+  "currencies": [
+    "EUR",
+    "USD",
+    "JPY",
+    "BTC",
+    "ETH",
+    "LTC",
+    "GBP",
+    "CHF",
+    "AUD",
+    "CAD",
+    "NZD",
+    "CNY"
+  ],
+  "width": "100%",
+  "height": "100%",
+  "locale": "en"
+}</script>
+
+                        </div>
+
+<!-- TradingView Widget END -->
+                </div>
+                    
+               
+        
+                </div>
+        	</div>
+		</div>	
+	<!--footer-->
+		<div class="footer">
+		   <p>All Rights Reserved &copy; CoinFxCloud 2020</p>
+		</div>
+        <!--//footer-->
+	</div>
+	<!-- Classie -->
+		<script src="https://coinfxcloud.com/js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				body = document.body;
+				
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+			
+
+			function disableOther( button ) {
+				if( button !== 'showLeftPush' ) {
+					classie.toggle( showLeftPush, 'disabled' );
+				}
+			}
+		</script>
+	<!--scrolling js-->
+	<!--
+	<script src="https://coinfxcloud.com/js/jquery.nicescroll.js"></script>
+	<script src="https://coinfxcloud.com/js/scripts.js"></script>
+	-->
+	<!--//scrolling js-->
+	<!-- js-->
+ <!-- Bootstrap Core JavaScript -->
+ <script src="https://coinfxcloud.com/js/bootstrap.js"> </script>
+
+<script src="https://coinfxcloud.com/js/modernizr.custom.js"></script>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+   
+</body>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5f2eaf6b5c885a1b7fb76011/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</html>	
