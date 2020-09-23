@@ -2,14 +2,17 @@
     .header-navigation {
         margin-bottom: 0;
     }
+
     .navbar-header {
         width: 100%;
         float: none;
         margin: 0 !important;
     }
+
     .navbar-nav {
         margin: 0;
     }
+
     .navbar-default .navbar-toggle {
         display: block;
         margin-right: 0;
@@ -17,22 +20,29 @@
         background-color: transparent !important;
         margin: 28px 0;
     }
+
     .navbar-default .navbar-toggle:hover {
         border-color: #5D67EB;
     }
+
     .navbar-default .navbar-toggle .icon-bar {
         background: #2d2d2d;
     }
+
     .navbar-default .navbar-toggle:hover .icon-bar {
         background: #5D67EB;
     }
+
     .navbar-collapse.collapse {
-        display: none!important;
+        /* celestine */
+
+        /* display: none!important;
         height: 0!important;
         padding-bottom: 0;
-        overflow: auto!important;
+        overflow: auto!important; */
         width: 100%;
     }
+
     .navbar-default .navbar-collapse {
         background: transparent;
         padding: 0px 0px !important;
@@ -41,45 +51,56 @@
         margin: 0;
         background: #2d2d2d;
     }
+
     .navbar-collapse.collapse.in {
         display: block !important;
         height: auto !important;
         max-height: 70vh;
     }
+
     .navbar-collapse.in {
         overflow-y: auto;
     }
+
     .header-navigation.navbar .nav {
         width: 100%;
         text-align: left;
     }
+
     .header-navigation.navbar .nav>li {
         display: block;
         padding: 0 !important;
         width: 100%;
         float: none;
     }
+
     .header-navigation.navbar .nav>li+li {
         margin-left: 0;
     }
+
     .header-navigation.navbar .nav>li>a {
         padding: 8px 0;
     }
+
     .header-navigation.navbar .right-box.nav {
         width: 100%;
         margin: 0;
     }
+
     .header-navigation.navbar .right-box.nav>li>a {
         border: none !important;
         padding: 8px 0;
         color: #fff !important;
     }
+
     .header-navigation.navbar .nav>li>a:after {
         display: none;
     }
+
     .header-navigation.navbar .nav.navigation-box+.nav {
         border-top: 1px dashed #282828;
     }
+
     .header-navigation.navbar .navbar-nav>li>.sub-menu,
     .header-navigation.navbar .navbar-nav>li>.sub-menu>li>.sub-menu {
         position: relative !important;
@@ -94,15 +115,18 @@
         float: none;
         margin: 0;
     }
+
     .header-navigation.navbar .navbar-nav>li>.sub-menu>li>a::after {
         display: none;
     }
+
     .header-navigation.navbar .nav>li+li {
         padding: 0 !important;
         border-top: 1px solid rgba(255, 255, 255, .1);
         display: block;
         float: none;
     }
+
     .header-navigation.navbar .nav>li>a,
     .header-navigation.navbar .right-box.nav>li>a {
         padding: 0;
@@ -112,9 +136,11 @@
         transition: background 0.4s ease 0s;
         text-transform: capitalize;
     }
+
     .header .stricky-fixed.header-navigation.navbar .nav>li {
         padding: 0 !important;
     }
+
     .header-navigation.navbar .navbar-nav .sub-nav-toggler {
         background-color: transparent;
         background-image: none;
@@ -128,6 +154,7 @@
         margin-right: 10px;
         display: block;
     }
+
     .header-navigation.navbar .navbar-nav .sub-nav-toggler .icon-bar {
         background-color: #fff;
         border-radius: 1px;
@@ -135,142 +162,300 @@
         height: 1px;
         width: 20px;
     }
+
     .header-navigation.navbar .navbar-nav .sub-nav-toggler .icon-bar+.icon-bar {
         margin-top: 4px;
     }
+
     .header .header-navigation.navbar .nav>li+li {
         margin-left: 0;
     }
+
     .header .header-navigation.navbar .container {
         padding-left: 15px;
     }
+
     .header .header-navigation .navbar-form {
         width: 100%;
         max-width: 100%;
     }
+
     .header-navigation .thm-container {
         padding-right: 20px;
     }
+
     .navbar-header {
         padding-right: 140px;
     }
+
     .header-navigation ul.navigation-box>li>ul.sub-menu>li>a .sub-nav-toggler {
         border-color: #2D2D2D
     }
+
     .header-navigation ul.navigation-box>li>ul.sub-menu>li>a .sub-nav-toggler .icon-bar {
         background-color: #2D2D2D
     }
 }
 
 @media (max-width: 1024px) {
+
     .about-section .title p br,
     .get-in-touch .form-content .inner .title p br {
         display: none;
     }
+
     .about-section .single-about-box p {
         font-size: 15px;
     }
+
     .performance-content {
         max-width: 350px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 60px;
     }
+
     .get-in-touch .form-content .inner form .frm-grp button[type="submit"] {
         padding-left: 66px;
         padding-right: 66px;
     }
+
     .our-news-letter .thm-container .inner form.news-letter input {
         max-width: 345px;
     }
+
     .about-section .video-box a.video-btn {
         -webkit-transform: translate(-160%, -50%);
         -ms-transform: translate(-160%, -50%);
         -o-transform: translate(-160%, -50%);
         transform: translate(-160%, -50%);
     }
+
     .header-navigation ul.navigation-box>li.active>a,
     .header-navigation ul.navigation-box>li.current>a,
     .header-navigation ul.navigation-box>li:hover>a {
         color: #fff;
         background: #4C57E5;
     }
-    .our-philoshopy .start-investing-wrap{position: relative;}
-    .our-philoshopy .start-investing {top:60%;left: 50%; transform: translate(-50%,-50%);height: auto;padding: 30px 30px; padding-bottom: 50px;}
-    .our-philoshopy .investing-box img.philoshophy-img {padding-left: 30px;}
-    .our-philoshopy {padding-bottom: 120px;}
+
+    .our-philoshopy .start-investing-wrap {
+        position: relative;
+    }
+
+    .our-philoshopy .start-investing {
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: auto;
+        padding: 30px 30px;
+        padding-bottom: 50px;
+    }
+
+    .our-philoshopy .investing-box img.philoshophy-img {
+        padding-left: 30px;
+    }
+
+    .our-philoshopy {
+        padding-bottom: 120px;
+    }
 }
 
 @media (max-width: 991px) {
-    .statics-section .thm-container {padding-bottom: 0;}
-    .statics-section .single-statics {margin-bottom: 30px;}
-    .about-section .video-box a.video-btn {transform: translate(-50%, -50%);}
-    .about-section .title {margin-top: 50px;}
-    .about-section {padding-bottom: 70px;}
-    .investing-wrap {margin-top: 50px;}
-    .our-philoshopy .investing-box img.philoshophy-img {margin-left: 0;}
-    .our-philoshopy .start-investing {top: 55%;}
-    .our-philoshopy {padding-bottom: 120px;}
-    .process-section {padding-bottom: 75px;}
-    .process-section .single-process {margin-bottom: 40px;}
-    .process-section .single-process:before {display: none;}
+    .statics-section .thm-container {
+        padding-bottom: 0;
+    }
+
+    .statics-section .single-statics {
+        margin-bottom: 30px;
+    }
+
+    .about-section .video-box a.video-btn {
+        transform: translate(-50%, -50%);
+    }
+
+    .about-section .title {
+        margin-top: 50px;
+    }
+
+    .about-section {
+        padding-bottom: 70px;
+    }
+
+    .investing-wrap {
+        margin-top: 50px;
+    }
+
+    .our-philoshopy .investing-box img.philoshophy-img {
+        margin-left: 0;
+    }
+
+    .our-philoshopy .start-investing {
+        top: 55%;
+    }
+
+    .our-philoshopy {
+        padding-bottom: 120px;
+    }
+
+    .process-section {
+        padding-bottom: 75px;
+    }
+
+    .process-section .single-process {
+        margin-bottom: 40px;
+    }
+
+    .process-section .single-process:before {
+        display: none;
+    }
+
     .single-why-choose {
         text-align: center !important;
     }
+
     .single-why-choose .text-box {
         padding: 40px 0;
     }
+
     .single-why-choose .img-box {
         text-align: center !important;
     }
+
     .single-why-choose+.single-why-choose {
         margin-top: 20px;
     }
-    .tools-content {padding-bottom: 60px;}
-    .tools-section img.pull-left {float: none !important;display: block;margin-left: auto;margin-right: auto;}
+
+    .tools-content {
+        padding-bottom: 60px;
+    }
+
+    .tools-section img.pull-left {
+        float: none !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .why-choose-us {
         padding-bottom: 40px;
     }
+
     .tools-satisfaction .single-tool-satisfaction {
         margin-top: 40px;
     }
-    .payment-option-box {padding-top: 120px;}
-    .statics-section .single-statics {border: none;}
-    .about-section {padding-top: 55px;}
-    .tools-section {padding-bottom: 100px;}
-    .tools-satisfaction {margin-top: 80px;}
+
+    .payment-option-box {
+        padding-top: 120px;
+    }
+
+    .statics-section .single-statics {
+        border: none;
+    }
+
+    .about-section {
+        padding-top: 55px;
+    }
+
+    .tools-section {
+        padding-bottom: 100px;
+    }
+
+    .tools-satisfaction {
+        margin-top: 80px;
+    }
 }
+
 @media (max-width: 968px) {
-    .statics-section .single-statics {margin-bottom: 30px;border: none;}
-    .statics-section .thm-container {padding-bottom: 0;}
-    .about-section img.moc-img {margin-top: 0px;margin-bottom: 60px;}
-    .about-section .video-box a.video-btn {transform: translate(-72%, -50%); }
-    .about-section {padding-bottom: 0px;}
-    
-    .process-section .single-process::before {left: 65%;}
-    .process-section .single-process {margin-bottom: 50px;}
-    .process-section {padding-bottom: 70px;}
-    .tools-section .tools-content {padding-bottom: 50px;}
-    
-    
-    .investing-box {display: none;}
-    .our-philoshopy {padding-bottom: 120px;}
-    .single-team {margin-bottom: 50px;}
-    .team-section .view-all-box {margin-top: 0;}
-    .about-section {padding-top: 120px;}
-    .our-philoshopy .philoshopy-content {margin-top: 120px;}
+    .statics-section .single-statics {
+        margin-bottom: 30px;
+        border: none;
+    }
+
+    .statics-section .thm-container {
+        padding-bottom: 0;
+    }
+
+    .about-section img.moc-img {
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+
+    .about-section .video-box a.video-btn {
+        transform: translate(-72%, -50%);
+    }
+
+    .about-section {
+        padding-bottom: 0px;
+    }
+
+    .process-section .single-process::before {
+        left: 65%;
+    }
+
+    .process-section .single-process {
+        margin-bottom: 50px;
+    }
+
+    .process-section {
+        padding-bottom: 70px;
+    }
+
+    .tools-section .tools-content {
+        padding-bottom: 50px;
+    }
+
+
+    .investing-box {
+        display: none;
+    }
+
+    .our-philoshopy {
+        padding-bottom: 120px;
+    }
+
+    .single-team {
+        margin-bottom: 50px;
+    }
+
+    .team-section .view-all-box {
+        margin-top: 0;
+    }
+
+    .about-section {
+        padding-top: 120px;
+    }
+
+    .our-philoshopy .philoshopy-content {
+        margin-top: 120px;
+    }
 
 }
 
 @media (max-width: 930px) {
-    .our-news-letter .thm-container .inner form.news-letter {padding-left: 20px;padding-right: 20px;}
-    .our-news-letter .thm-container .inner form.news-letter input {max-width: 320px}
+    .our-news-letter .thm-container .inner form.news-letter {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .our-news-letter .thm-container .inner form.news-letter input {
+        max-width: 320px
+    }
 }
+
 @media (max-width: 900px) {
-    .statics-section .single-statics .text-box {padding-left: 30px;}
-    .tools-section {padding-bottom: 120px;}
-    .our-news-letter .thm-container .inner form.news-letter input {max-width: 300px}
+    .statics-section .single-statics .text-box {
+        padding-left: 30px;
+    }
+
+    .tools-section {
+        padding-bottom: 120px;
+    }
+
+    .our-news-letter .thm-container .inner form.news-letter input {
+        max-width: 300px
+    }
 }
+
 @media (max-width: 823px) {
     .statics-section .thm-container {
         padding-bottom: 30px;
@@ -283,42 +468,53 @@
     .process-section {
         padding-bottom: 90px;
     }
+
     .process-section .single-process {
         margin-bottom: 30px;
     }
+
     .process-section .single-process::before {
         display: none;
     }
-    
+
     .tools-content {
         margin-bottom: 60px;
     }
+
     .tools-satisfaction {
         margin-top: 0px;
         padding-top: 80px;
     }
+
     .tools-satisfaction .single-tool-satisfaction {
         margin-top: 40px;
     }
+
     .pricing-section .tab-btn {
         margin-bottom: 30px;
     }
+
     .pricing-section .single-pricing {
         margin-top: 30px;
     }
+
     .payment-option-box {
         margin-top: 60px;
     }
+
     .single-team {
         margin-top: 40px;
     }
+
     .team-section .sec-title {
         margin-bottom: 10px;
     }
+
     .testimonial-section .testimonial-carousel.owl-theme .owl-dots {
         bottom: -20%;
         left: 0;
     }
+
     .our-news-letter .thm-container .inner form.news-letter {
         padding: 0 30px;
         padding-bottom: 60px;
@@ -326,21 +522,26 @@
         margin-right: auto;
         position: static;
     }
+
     .our-news-letter .thm-container .inner form.news-letter input {
         margin-right: 0;
         max-width: 100%;
         margin-bottom: 20px;
     }
+
     .about-section .video-box .moc-img {
         width: 100%;
     }
+
     .about-section .video-box a.video-btn {
         transform: translate(-50%, -20%);
     }
+
     .our-philoshopy .investing-box {
         display: block;
         position: relative;
     }
+
     .our-philoshopy .investing-box img.philoshophy-img {
         width: 100%;
         margin-top: 30px;
@@ -354,59 +555,75 @@
         -ms-transform-origin: trasnslate(-0%.-0%);
         -o-transform-origin: trasnslate(-0%.-0%);
         transform-origin: trasnslate(-0%.-0%);
-        
+
     }
+
     .our-philoshopy .philoshopy-content,
     .about-section img.moc-img {
         margin-top: 50px;
     }
+
     .about-section .title {
         margin-top: 80px;
     }
+
     .faq-section {
         padding-bottom: 120px;
     }
+
     .our-philoshopy {
         padding-bottom: 120px;
     }
+
     .tools-section {
         padding-top: 80px;
         padding-bottom: 80px;
     }
+
     .brand-section {
         padding-top: 80px;
         padding-bottom: 220px;
     }
+
     .our-news-letter .thm-container {
         padding-bottom: 120px;
     }
+
     .why-choose-us {
         padding-bottom: 80px;
     }
+
     .tools-satisfaction .single-tool-satisfaction {
         margin-top: 40px;
     }
+
     .slider-home-one .content a.thm-button.borderd {
         margin-left: 0;
         margin-top: 20px;
     }
+
     .tools-satisfaction .single-tool-satisfaction {
         text-align: center;
     }
+
     .tools-satisfaction .single-tool-satisfaction .icon-box,
     .tools-satisfaction .single-tool-satisfaction .text-box {
         display: block;
     }
+
     .tools-satisfaction .single-tool-satisfaction .text-box {
         padding-left: 0;
         margin-top: 20px;
     }
+
     #minimal-bootstrap-carousel.slider-home-one .carousel-inner .item {
         min-height: 800px;
     }
+
     .statics-section .single-statics {
         margin-top: 20px
     }
+
     .tools-satisfaction .single-tool-satisfaction .icon-box .inner {
         margin-left: auto;
         margin-right: auto;
@@ -414,6 +631,7 @@
         width: 50px;
         height: 50px;
     }
+
     .testimonial-section .testimonial-carousel .single-tesimonial .img-box,
     .testimonial-section .testimonial-carousel .single-tesimonial .text-box {
         display: block;
@@ -434,16 +652,48 @@
         bottom: -10%;
         left: 0;
     }
-    .about-section img.moc-img {margin-top: 0;}
-    .statics-section .single-statics {margin-top: 0;}
-    .statics-section .thm-container {padding-bottom: 0;}
-    .about-section .video-box a.video-btn {transform: translate(-50%, -76%); }
-    .about-section .title {margin-top: 0;}
-    .tools-section .tools-content {margin-bottom: 0;}
-    .slider-home-one .content {padding-bottom: 205px;}
-    .about-section {padding-bottom: 30px;}
-    .our-philoshopy .investing-box img.philoshophy-img {display: none;}
-    .our-philoshopy .start-investing {position: static;margin-top: 0px;margin-bottom: 0px;-webkit-transform: translate(0);
+
+    .about-section img.moc-img {
+        margin-top: 0;
+    }
+
+    .statics-section .single-statics {
+        margin-top: 0;
+    }
+
+    .statics-section .thm-container {
+        padding-bottom: 0;
+    }
+
+    .about-section .video-box a.video-btn {
+        transform: translate(-50%, -76%);
+    }
+
+    .about-section .title {
+        margin-top: 0;
+    }
+
+    .tools-section .tools-content {
+        margin-bottom: 0;
+    }
+
+    .slider-home-one .content {
+        padding-bottom: 205px;
+    }
+
+    .about-section {
+        padding-bottom: 30px;
+    }
+
+    .our-philoshopy .investing-box img.philoshophy-img {
+        display: none;
+    }
+
+    .our-philoshopy .start-investing {
+        position: static;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        -webkit-transform: translate(0);
         -moz-transform: translate(0);
         -ms-transform: translate(0);
         -o-transform: translate(0);
@@ -451,19 +701,48 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .payment-option-box {margin-top: 0;padding-top: 90px;}
-    .our-news-letter .thm-container .inner form.news-letter button {display: block;margin-left: auto;margin-right: auto;}
-    .testimonial-section  {padding-bottom: 150px;}
+
+    .payment-option-box {
+        margin-top: 0;
+        padding-top: 90px;
+    }
+
+    .our-news-letter .thm-container .inner form.news-letter button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .testimonial-section {
+        padding-bottom: 150px;
+    }
 }
 
 @media (max-width: 736px) {
-    .single-team {margin-top: 0;}
-    .testimonial-section {padding-bottom: 160px;}
-    .footer .footer-top .footer-logo {width: 100%;text-align: center;}
-    .footer .footer-top .footer-right {width: 100%;text-align: center;}
+    .single-team {
+        margin-top: 0;
+    }
+
+    .testimonial-section {
+        padding-bottom: 160px;
+    }
+
+    .footer .footer-top .footer-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .footer-top .footer-right {
+        width: 100%;
+        text-align: center;
+    }
 }
+
 @media (max-width: 680px) {
-    .statics-section {text-align: center;}
+    .statics-section {
+        text-align: center;
+    }
+
     .statics-section .single-statics .icon-box,
     .statics-section .single-statics .text-box {
         display: inline-block;
@@ -473,61 +752,127 @@
     .statics-section .single-statics .text-box {
         text-align: left;
     }
-    .footer .footer-top .footer-logo {width: 100%;text-align: center;}
-    .footer .footer-top .footer-right {width: 100%;text-align: center;}
+
+    .footer .footer-top .footer-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .footer-top .footer-right {
+        width: 100%;
+        text-align: center;
+    }
 }
+
 @media (max-width: 667px) {
     .statics-section .single-statics {
         border: none;
         margin-bottom: 30px;
     }
+
     .about-section .title {
         margin-top: 60px;
     }
+
     .testimonial-section .testimonial-carousel .single-tesimonial {
         text-align: center;
     }
+
     .testimonial-section .testimonial-carousel .single-tesimonial .img-box {
         width: 300px;
     }
+
     .testimonial-section .testimonial-carousel .single-tesimonial .text-box {
         padding-left: 0;
     }
+
     .testimonial-section .testimonial-carousel.owl-theme .owl-dots {
         bottom: -14%;
     }
+
     .about-section .title {
         text-align: center;
     }
+
     .statics-section .single-statics {
         margin-right: 20px;
-    }    
+    }
+
     .about-section .single-about-box.hvr-bounce-to-bottom {
-        display: block; width: 100%;
-        display: block; width: 100%;
+        display: block;
+        width: 100%;
+        display: block;
+        width: 100%;
         max-width: 375px;
         margin-left: auto;
         margin-right: auto;
     }
-    .statics-section .single-statics {text-align: center;}
-    .statics-section .single-statics .icon-box, .statics-section .single-statics .text-box {display: inline-block;vertical-align: middle;}
-    .statics-section .single-statics .text-box {text-align: left;transform: translate(0%,0%);top: 0%; left: 0%;}
-    .our-philoshopy .start-investing {
-        margin-top: 30px;margin-bottom: 30px;
+
+    .statics-section .single-statics {
+        text-align: center;
     }
-    .our-philoshopy .start-investing {margin-top: 20px;}
-    .investing-wrap {height: 269px;margin-bottom: 15px;}
-    .about-section .title{border-top: 0;}
-    .about-section .title {margin-top: 0;}
-    .our-philoshopy .philoshopy-content {margin-top: 90px;}
-    .our-philoshopy .investing-box img.philoshophy-img {display: none;}
-    .our-philoshopy .start-investing {top: 55%;margin-bottom: 80px;}
+
+    .statics-section .single-statics .icon-box,
+    .statics-section .single-statics .text-box {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .statics-section .single-statics .text-box {
+        text-align: left;
+        transform: translate(0%, 0%);
+        top: 0%;
+        left: 0%;
+    }
+
+    .our-philoshopy .start-investing {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .our-philoshopy .start-investing {
+        margin-top: 20px;
+    }
+
+    .investing-wrap {
+        height: 269px;
+        margin-bottom: 15px;
+    }
+
+    .about-section .title {
+        border-top: 0;
+    }
+
+    .about-section .title {
+        margin-top: 0;
+    }
+
+    .our-philoshopy .philoshopy-content {
+        margin-top: 90px;
+    }
+
+    .our-philoshopy .investing-box img.philoshophy-img {
+        display: none;
+    }
+
+    .our-philoshopy .start-investing {
+        top: 55%;
+        margin-bottom: 80px;
+    }
+
     .footer-top .pull-left,
-    .footer-top .pull-right {text-align: center;width: 100%;}
-    .our-philoshopy {padding-bottom: 130px;}
+    .footer-top .pull-right {
+        text-align: center;
+        width: 100%;
+    }
+
+    .our-philoshopy {
+        padding-bottom: 130px;
+    }
 }
 
 @media (max-width: 640px) {
+
     .header .top-bar .contact-info,
     .header .top-bar .social-box {
         float: none;
@@ -605,7 +950,10 @@
     .about-section .video-box a.video-btn {
         transform: translate(-50%, -90%);
     }
-    .about-section .video-box .moc-img {margin-top: 0;}
+
+    .about-section .video-box .moc-img {
+        margin-top: 0;
+    }
 
     .our-philoshopy {
         padding-bottom: 80px;
@@ -623,7 +971,7 @@
         text-align: center;
     }
 
-    
+
 
     .our-philoshopy .investing-box {
         display: block;
@@ -632,6 +980,7 @@
     .our-philoshopy {
         padding-right: ;
     }
+
     .about-section .single-about-box {
         display: block;
         width: 70%;
@@ -673,18 +1022,51 @@
 }
 
 @media (max-width: 414px) {
-	.transaction-performance-section .tab-btn ul {border-radius: 0;background-color: transparent;display: block;}    
-    .transaction-performance-section .tab-btn ul li,
-    .transaction-performance-section .tab-btn ul li a {display: block;}
-    .transaction-performance-section .tab-btn ul li {width: 65%;margin-left: auto;margin-right: auto;}
-    .transaction-performance-section .tab-btn ul li a {background: #F0F2FD;border-radius: 30px;}
+    .transaction-performance-section .tab-btn ul {
+        border-radius: 0;
+        background-color: transparent;
+        display: block;
+    }
 
-	.pricing-section .tab-btn ul {border-radius: 0;background-color: transparent;display: block;}    
+    .transaction-performance-section .tab-btn ul li,
+    .transaction-performance-section .tab-btn ul li a {
+        display: block;
+    }
+
+    .transaction-performance-section .tab-btn ul li {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .transaction-performance-section .tab-btn ul li a {
+        background: #F0F2FD;
+        border-radius: 30px;
+    }
+
+    .pricing-section .tab-btn ul {
+        border-radius: 0;
+        background-color: transparent;
+        display: block;
+    }
+
     .pricing-section .tab-btn ul li,
-    .pricing-section .tab-btn ul li a {display: block;}
-    .pricing-section .tab-btn ul li {width: 65%;margin-left: auto;margin-right: auto;}
-    .pricing-section .tab-btn ul li a {background: #F0F2FD;border-radius: 30px;}
+    .pricing-section .tab-btn ul li a {
+        display: block;
+    }
+
+    .pricing-section .tab-btn ul li {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pricing-section .tab-btn ul li a {
+        background: #F0F2FD;
+        border-radius: 30px;
+    }
 }
+
 @media (max-width: 375px) {
     .navbar-header {
         padding-right: 0;
@@ -714,18 +1096,37 @@
     .single-why-choose .img-box img {
         max-width: 100%
     }
-    
+
     .about-section .video-box a.video-btn {
         transform: translate(-50%, -84%);
     }
-    .about-section .video-box .moc-img {margin-top: 0;}
-    .slider-home-one .content {padding-bottom: 140px;}
-    
+
+    .about-section .video-box .moc-img {
+        margin-top: 0;
+    }
+
+    .slider-home-one .content {
+        padding-bottom: 140px;
+    }
+
 
 }
 
 @media (max-width: 320px) {
-    .statics-section .single-statics .icon-box, .statics-section .single-statics .text-box {display: block;text-align: center;padding: 0;}
-    .statics-section .single-statics .icon-box {margin-left: auto;margin-right: auto;}
-    .statics-section .single-statics .text-box {margin-top: 15px;}
+
+    .statics-section .single-statics .icon-box,
+    .statics-section .single-statics .text-box {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .statics-section .single-statics .icon-box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .statics-section .single-statics .text-box {
+        margin-top: 15px;
+    }
 }

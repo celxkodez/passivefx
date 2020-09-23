@@ -58,7 +58,9 @@
 	<link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/clndr.css"/>
 	<link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/custom.css"/>
 	<link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/dashboard_style_blue.css"/>
-	<link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/dashboard_style_default.css"/>
+	{{-- celestine --}}
+	<link rel="stylesheet" type="text/css" href="{{ asset('css/dashboard_style_default.css') }}"/>
+	{{-- <link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/dashboard_style_default.css"/> --}}
 	<link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/flexslider.css"/>
 	<link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/font-awesome.css"/>
 	<link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/frontend_style_blue.css"/>
@@ -74,7 +76,49 @@
 	<!--<link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/owl.video.play.html"/>-->
 	<link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/patros.css"/>
 	<link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/nouislider.pips.css"/>
-	<link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/responsivef.css"/>
+	<link rel="stylesheet" type="text/css" href="{{ asset('css/responsivef.css') }}"/>
+	{{-- <link rel="stylesheet" type="text/css" href="https://passivefxinvest.com/css/responsivef.css"/> --}}
+	<style>
+		@media screen and (max-width: 991px){
+
+		
+			.sidebar {
+					position: fixed;
+					left: 0!important;
+					right: 0;
+					/* -webkit-transform: translate3d(0,0,0) ; */
+					/* -moz-transform: translate3d(-270px,0,0);
+					-o-transform: translate3d(-270px,0,0); */
+					/* -ms-transform: translate3d(0,0,0) ; */
+					transform: translate3d(0,0,0)!important;
+					transition: all .5s;
+					margin-top: 0;
+			}
+
+		}
+
+										.sidebar, .sidebar[data-background-color=white] {
+    position: fixed;
+    top: 100px;
+    /* bottom: 0;
+    left: 0;
+    width: 250px;
+    margin-top: 62px;
+    display: block;
+    z-index: 1000;
+    color: #fff;
+    font-weight: 200; */
+    background: none !important;
+    -webkit-box-shadow: none !important;
+    /* -moz-box-shadow: 4px 4px 10px rgba(69,65,78,.06); */
+    /* box-shadow: 0px 0px 0px rgba(69,65,78,.06) !important;  */
+    box-shadow: none !important;
+    /* transition: all .3s; */
+}
+
+
+	
+	</style>
 
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
