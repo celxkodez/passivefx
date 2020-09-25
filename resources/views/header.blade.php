@@ -117,6 +117,26 @@
 }
 
 
+	.cbp-spmenu {
+		overflow-y: scroll;
+	}
+
+	.cbp-spmenu::-webkit-scrollbar{
+		width: 8px;
+		
+	}
+
+	.cbp-spmenu::-webkit-scrollbar-track {
+		padding: 2px;
+		background-color: bisque;
+		width: 4px;
+		border-radius: 3em;
+		border-color: bisque;
+}
+.cbp-spmenu::-webkit-scrollbar-thumb {
+  background-color: #555;   
+  border-radius: 20px;       
+}
 	
 	</style>
 
