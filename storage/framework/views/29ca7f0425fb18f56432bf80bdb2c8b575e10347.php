@@ -86,6 +86,7 @@
 					position: fixed;
 					left: 0!important;
 					right: 0;
+					z-index: 10;
 					/* -webkit-transform: translate3d(0,0,0) ; */
 					/* -moz-transform: translate3d(-270px,0,0);
 					-o-transform: translate3d(-270px,0,0); */
