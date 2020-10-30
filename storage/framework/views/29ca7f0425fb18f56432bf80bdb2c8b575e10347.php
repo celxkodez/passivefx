@@ -86,7 +86,7 @@
 					position: fixed;
 					left: 0!important;
 					right: 0;
-					z-index: 10;
+					z-index: -1;
 					/* -webkit-transform: translate3d(0,0,0) ; */
 					/* -moz-transform: translate3d(-270px,0,0);
 					-o-transform: translate3d(-270px,0,0); */
@@ -138,8 +138,13 @@
   background-color: #555;   
   border-radius: 20px;       
 }
+.z-index {
+	z-index: 10;
+}
 	
 	</style>
+
+	
 
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
@@ -372,4 +377,19 @@
 			    </div>
 			  </div>
 			</div>
+
+			<script>
+					let btn = document.querySelector('#showLeftPush');
+					let sidebar = document.querySelector('.sidebar');
+					console.log(btn);
+			
+					btn.addEventListener('click', ()=>{
+						console.log('clicked');
+						if(sidebar.classList.contains('z-index')){
+							sidebar.classList.remove('z-index');
+						}else{
+							sidebar.classList.add('z-index');
+						}
+					});
+				</script>
 			<!-- /Verify Modal -->
